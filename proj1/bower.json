@@ -8,5 +8,5 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "proj1App"
+  "moduleName": "sogeApp"
 }
