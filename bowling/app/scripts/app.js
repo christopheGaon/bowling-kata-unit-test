@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     var app = angular.module('sogeApp',[]);
-    app.run(['gameService',serviceFunc]);
+    app.run(['game',serviceFunc]);
     function serviceFunc (game) {
         console.log("start app");
         /**

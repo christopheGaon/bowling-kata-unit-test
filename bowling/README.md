@@ -44,4 +44,3 @@ on retrouve les fichiers de testUnitaire qui test le projet
 
 gameSpec test le jeu de Bowling en reprenant les tests du kata
 
-bowlingFrameSpec test la classe bowlingFrame qui stoke les données

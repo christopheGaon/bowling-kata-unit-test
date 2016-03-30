@@ -7,8 +7,8 @@ describe('Game Bowling ', function () {
 
   var game
   // Initialize the game Service
-  beforeEach(inject(function (_gameService_) {
-    game = new _gameService_("bidule");
+  beforeEach(inject(function (_game_) {
+    game = new _game_("bidule");
     
   }));
 
