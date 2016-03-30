@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Game', function () {
+describe('Game Bowling ', function () {
 
   // load the controller's module
   beforeEach(module('sogeApp'));
@@ -16,17 +16,13 @@ describe('Game', function () {
     for(var i =0; i<10;i++) {
       game.scored(9);
       game.scored(0);
-       
     }
-
     expect(game.getPoints()).toBe(90);
   });
-
    it('scored XXXXXXXXXXXX and get 300', function () {
     for(var i =0; i<12;i++) {
       game.scored(10);
     }
-
     expect(game.getPoints()).toBe(300);
   });
 

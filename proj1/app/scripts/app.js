@@ -1,14 +1,14 @@
 (function() {
     'use strict';
-
     var app = angular.module('sogeApp',[]);
-	app.run(['gameService',serviceFunc]);
-
-
-
-	function serviceFunc (gameService) {
-			console.log("start app");
-			var game = new gameService("bidule");
-			
-		}
+    app.run(['gameService',serviceFunc]);
+    function serviceFunc (game) {
+        console.log("start app");
+        /**
+         * bootStrap de l'application
+         * instanciation de la classe Game
+         * @type {gameService}
+         */
+        var game = new game();
+    }
 })();
