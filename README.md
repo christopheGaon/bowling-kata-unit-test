@@ -1,6 +1,6 @@
-## Projet openSource 
+## kata project
 
-AngularJS 1
-Flex 4.6
-JAVA / JEE
+bowling
+kata project implementation of bowling rules for calculate points
+karma test for unit testing angular framework
 
